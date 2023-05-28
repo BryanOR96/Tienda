@@ -1,0 +1,24 @@
+/* estilo.css */
+
+/* Estilos para el encabezado */
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+/* Estilos para el párrafo */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+
