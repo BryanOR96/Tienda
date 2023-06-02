@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Tienda Virtual de Zapatos</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    
+    <header>
+    <p> Tienda de Zapatos Online</p>
+  </header>
+  <div class="container">
+    <h2>Iniciar sesión</h2>
+    <form class="login-form" onsubmit="login(event)">
+      <div class="form-group">
+        <label for="username">Usuario</label>
+        <input type="text" id="username" name="username" placeholder="Ingresa tu usuario" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Iniciar sesión">
+      </div>
+    </form>
+    <p>No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
+  </div>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>Derechos de autor &copy; 2023 Tienda de Zapatos Online. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
